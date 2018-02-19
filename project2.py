@@ -61,7 +61,6 @@ DATA = df[df['COVERAGE']>0.95]
 print DATA
 
 DATA.to_csv('filtered_data_project2')
-#print jordi
 #filter those whose alignment covers more than 95% of the sequence
 #print df3['SINE length (bp)']
 #print blast['ID2']
